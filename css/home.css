@@ -1,8 +1,10 @@
-body{}
+body{
+  background-color: #D094A1;
+}
 #quote {
-
+    color: white;
     text-align: center;
-
+    background-color: #D094A1;
 }
 
 #banner{
@@ -24,12 +26,12 @@ body{}
 #about p {
   font-size:  1.3em;
 	font-weight: 400;
-  padding: 0 450px 0 450px ;
   color:white;
 }
 
 .picture{
-  padding:0;
+    padding:0;
+  background-color: #D094A1;
 }
 
 #profile {
@@ -42,6 +44,10 @@ a{
   color:white;
 }
 
+.nopadding {
+  padding:0;
+}
+
 a:visited{
   text-decoration:none;
   color:white;
@@ -50,4 +56,12 @@ a:visited{
 a:hover{
   color:#D094A1;
   text-decoration: none;
+}
+
+.mei {
+  float: left;
+}
+
+.kartong{
+  float:right;
 }
