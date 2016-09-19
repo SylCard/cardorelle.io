@@ -1,8 +1,14 @@
+html{
+  background: url(mei shrine.jpg)
+}
+
 #quote {
+    background-color: white;
     text-align: center;
 
 }
 
 #about{
-  background-color: #5F9EA0;
+  background-color: white;
+  color: #5F9EA0;
 }
