@@ -28,6 +28,10 @@ body{
 	font-weight: 400;
   color:white;
 }
+#about a {
+
+  color:#D094A1;
+}
 
 .picture{
     padding:0;
