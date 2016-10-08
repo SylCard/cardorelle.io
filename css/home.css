@@ -69,3 +69,7 @@ a:hover{
 .kartong{
   float:right;
 }
+
+.container {
+  padding: 0px;
+}
