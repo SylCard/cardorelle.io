@@ -4,7 +4,7 @@ window.onload = function(){
 	var ctx = canvas.getContext("2d");
 
 	//canvas dimensions
-
+	var $canvas = $("#canvas") ;
 	var $parent = $canvas.parent();
 
 
