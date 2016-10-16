@@ -7,8 +7,8 @@ window.onload = function(){
 	var $canvas = $("#canvas") ;
 	var $parent = $canvas.parent();
 	// set width and height
-	var W = $parent.width();
-	var H = $parent.height() ;
+	var W = $parent.innerWidth();
+	var H = $parent.innerHeight() ;
 	canvas.width = W;
 	canvas.height = H;
 	//snowflake particles
