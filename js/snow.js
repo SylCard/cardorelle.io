@@ -4,10 +4,10 @@ window.onload = function(){
 	var ctx = canvas.getContext("2d");
 
 	//canvas dimensions
-	var $canvas = $("#canvas");
-	var $parent = $canvas.parent();
-	$canvas.width($parent.width());
-	$canvas.height($parent.height());
+	var W = $parent.width();
+	var H = $parent.height() ;
+	canvas.width = W;
+	canvas.height = H;
 
 	//snowflake particles
 	var mp = 25; //max particles
