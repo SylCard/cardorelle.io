@@ -27,7 +27,7 @@ window.onload = function(){
 	{
 		ctx.clearRect(0, 0, W, H);
 
-		ctx.fillStyle = "rgba(255, 255, 255, 1)";
+		ctx.fillStyle = "rgba(150,206,227,1)";
 		ctx.beginPath();
 		for(var i = 0; i < mp; i++)
 		{
