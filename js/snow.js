@@ -1,5 +1,13 @@
+window.onload = function(){
+	//canvas init
+	var canvas = document.getElementById("canvas");
+	var ctx = canvas.getContext("2d");
 
-
+	//canvas dimensions
+	var W = window.innerWidth;
+	var H = window.innerHeight;
+	canvas.width = W;
+	canvas.height = H;
 
 	//snowflake particles
 	var mp = 25; //max particles
