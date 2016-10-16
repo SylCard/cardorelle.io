@@ -8,8 +8,8 @@ window.onload = function(){
 	var $parent = $canvas.parent();
 
 
-	var W = $parent.width() ;
-	var H = $parent.height() ;
+	var W = $parent.width()+600 ;
+	var H = $parent.height()+400 ;
 	//snowflake particles
 	var mp = 25; //max particles
 	var particles = [];
