@@ -6,10 +6,9 @@ window.onload = function(){
 	//canvas dimensions
 	var $canvas = $("#canvas") ;
 	var $parent = $canvas.parent();
-
-
-	var W = $parent.width()+600 ;
-	var H = $parent.height()+400 ;
+	// set width and height
+	var W = $parent.width()/2;
+	var H = $parent.height()/2 ;
 	//snowflake particles
 	var mp = 25; //max particles
 	var particles = [];
