@@ -2,10 +2,10 @@ body{
   background-color: #D094A1;
 }
 
-div{
-  overflow: hidden;
-}
+
 #canvas{
+
+	display: block;
 
   position: absolute;
 }
