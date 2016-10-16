@@ -3,11 +3,11 @@ window.onload = function(){
 	var canvas = document.getElementById("canvas");
 	var ctx = canvas.getContext("2d");
 
-	// //canvas dimensions
-	// var W = window.innerWidth;
-	// var H = window.innerHeight;
-	// canvas.width = W;
-	// canvas.height = H;
+	//canvas dimensions
+	var $canvas = $("#canvas");
+	var $parent = $canvas.parent();
+	$canvas.width($parent.width());
+	$canvas.height($parent.height());
 
 	//snowflake particles
 	var mp = 25; //max particles
