@@ -2,6 +2,9 @@ body{
   background-color: #D094A1;
 }
 
+div{
+  overflow: hidden;
+}
 #canvas{
 
   position: absolute;
