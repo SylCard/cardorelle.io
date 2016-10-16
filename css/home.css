@@ -1,6 +1,10 @@
 body{
   background-color: #D094A1;
 }
+
+#canvas{
+  display: block;
+}
 #quote {
     color: white;
     text-align: center;
