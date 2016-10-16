@@ -1,9 +1,5 @@
 
-	//canvas dimensions
-	var W = window.innerWidth;
-	var H = window.innerHeight;
-	canvas.width = W;
-	canvas.height = H;
+
 
 	//snowflake particles
 	var mp = 25; //max particles
