@@ -4,7 +4,7 @@ body{
 
 #canvas{
 
-  position: fixed;
+  position: absolute;
 }
 #quote {
     color: white;
