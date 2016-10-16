@@ -4,6 +4,7 @@ window.onload = function(){
 	var ctx = canvas.getContext("2d");
 
 	//canvas dimensions
+	var $parent = canvas.parent();
 	var W = $parent.width();
 	var H = $parent.height() ;
 	canvas.width = W;
