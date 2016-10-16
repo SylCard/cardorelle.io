@@ -27,7 +27,7 @@ window.onload = function(){
 	{
 		ctx.clearRect(0, 0, W, H);
 		var colours = ['#96CEE3','white','#a0e7d7','#f6a654']
-		ctx.fillStyle = colors[Math.floor(Math.random() * colors.length)];
+		ctx.fillStyle = colours[Math.floor(Math.random() * colors.length)];
 		ctx.beginPath();
 		for(var i = 0; i < mp; i++)
 		{
