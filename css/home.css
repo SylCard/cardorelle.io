@@ -53,7 +53,7 @@ body{
 }
 
 a{
-  color:#D094A1;
+  color:white;
 }
 
 .nopadding {
@@ -66,7 +66,7 @@ a:visited{
 }
 
 a:hover{
-  color:#D094A1;
+  color:white;
   text-decoration: none;
 }
 
