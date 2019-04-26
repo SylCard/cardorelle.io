@@ -16,10 +16,7 @@ body{
     background-color: #D094A1;
 }
 
-#banner{
-  margin-top: -5px;
-  margin-bottom: 0;
-}
+
 
 #about{
       margin:-10px;
@@ -39,17 +36,15 @@ body{
 }
 #about a {
 
-  color:#D094A1;
+  color:white;
 }
 
-.picture{
-    padding:0;
-  background-color: #D094A1;
-}
 
 #profile {
-  max-width:50%;
-  max-height:70%;
+   display: inline-block;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
 }
 
 a{
