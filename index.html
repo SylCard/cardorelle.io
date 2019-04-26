@@ -9,8 +9,9 @@
     <!-- Bootstrap -->
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="css/favicon_io/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -51,79 +52,43 @@
      </script>
 
   <body>
-    <div class="container-fluid-nopadding" id="about">
+    <div class="container-fluid-nopadding" >
       <canvas id="canvas"></canvas>
       <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
-
-          <h1>Sylvester Cardorelle</h1>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
           <img src="css/PP.JPG" id="profile"/>
-          <br />
-          <br />
-          <p>
-            One for All
-          </p>
         </div>
         <div class="col-sm-4"></div>
-    </div>
-
-    </div>
-
-    <div class="container-fluid-nopadding">
-      <div class="row">
-        <div class="col-sm-12-nopadding">
-          <div id="player" >
-          </div>
-        </div>
       </div>
+    </div>
+
+    <div class="container-fluid-nopadding" id="about">
+      <div class="row">
+          <div class="col-md-4-nopadding"></div>
+          <div class="col-md-4-nopadding">
+              <h2>SYLVESTER CARDORELLE</h2>
+
+          </div>
+          <div class="col-md-4-nopadding"></div>
+        </div>
+    </div>
     </div>
     <div class="container-fluid-picture-nopadding" id="banner">
       <div class="row">
-        <div class="col-sm-12">
-            <img src="css/meishrine.jpg" alt="Mei Shrine in Tokyo,Japan" width="100%" />
+        <div class="col-md-12">
+            <h3>My faviconavourite song atm</h3>
+            <div id="player" >
         </div>
       </div>
     </div>
     <div  class="container-fluid" id="home">
       <div class="row">
-        <div class="col-sm-12">
+        <div class="col-md-12">
             <h1 id="quote"> As you think, so shall you become. - Bruce Lee </h1>
         </div>
       </div>
     </div>
   </body>
-  <script>$(document).ready(function(){
-    // Add smooth scrolling to all links in navbar + footer link
-    $("#button").on('click', function(event) {
 
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    });
-
-    $(window).scroll(function() {
-      $(".slideanim").each(function(){
-        var pos = $(this).offset().top;
-
-        var winTop = $(window).scrollTop();
-          if (pos < winTop + 600) {
-            $(this).addClass("slide");
-          }
-      });
-    });
-  })
-  </script>
 </html>

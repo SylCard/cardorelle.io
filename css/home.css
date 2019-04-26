@@ -1,5 +1,6 @@
 body{
-  background-color: #D094A1;
+  background-color: #4BD8D6;
+  font-family: 'Gugi', cursive;
 }
 
 
@@ -47,9 +48,7 @@ body{
 }
 
 #profile {
-  border-radius:100%;
-  width:200px;
-  height:200px;
+
 }
 
 a{
