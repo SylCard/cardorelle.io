@@ -1,5 +1,5 @@
 body{
-  background-color: #4BD8D6;
+  background-color: #CAFFD4;
   font-family: 'Gugi', cursive;
 }
 
@@ -19,10 +19,8 @@ body{
 
 
 #about{
-      margin:-10px;
-      background-color: #D094A1;
+      background-color: #A1CCA9;
       text-align: center;
-
 }
 #about h1{
   font-size:  3em;
