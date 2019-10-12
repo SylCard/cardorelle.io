@@ -22,33 +22,45 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   </head>
   <script>
-       // 2. This code loads the IFrame Player API code asynchronously.
-       var tag = document.createElement('script');
+          // set up text to print, each item in array is new line
+          var aText = new Array(
+          "Sylvester Cardorelle",
+          "Computer Scientist who loves making people smile.");
+          var iSpeed = 100; // time delay of print out
+          var iIndex = 0; // start printing array at this posision
+          var iArrLength = aText[0].length; // the length of the text array
+          var iScrollAt = 20; // start scrolling up at this many lines
 
-       tag.src = "https://www.youtube.com/iframe_api";
-       var firstScriptTag = document.getElementsByTagName('script')[0];
-       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+          var iTextPos = 0; // initialise text position
+          var sContents = ''; // initialise contents variable
+          var iRow; // initialise current row
 
-       // 3. This function creates an <iframe> (and YouTube player)
-       //    after the API code downloads.
-       var player;
-       function onYouTubeIframeAPIReady() {
-         player = new YT.Player('player', {
-           height: '320',
-           width: '100%',
-           videoId: 'SJkOsp799y8',
-           events: {
-             'onReady': onPlayerReady,
-           }
-         });
-       }
+          function typewriter()
+          {
+          sContents =  ' ';
+          iRow = Math.max(0, iIndex-iScrollAt);
+          var destination = document.getElementById("typedtext");
 
-       // 4. The API will call this function when the video player is ready.
-       function onPlayerReady(event) {
-         // event.target.playVideo();
-       }
+          while ( iRow < iIndex ) {
+          sContents += aText[iRow++] + '<br />';
+          }
+          destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+          if ( iTextPos++ == iArrLength ) {
+          iTextPos = 0;
+          iIndex++;
+          if ( iIndex != aText.length ) {
+          iArrLength = aText[iIndex].length;
+          setTimeout("typewriter()", 500);
+          }
+          } else {
+          setTimeout("typewriter()", iSpeed);
+          }
+          }
 
-     </script>
+
+          typewriter();
+
+  </script>
 
   <body>
     <div class="container-fluid" >
@@ -65,13 +77,7 @@
           <div class="col-md-4"></div>
           <div class="col-md-4" >
               <br />
-              <div class="line-1 anim-typewriter">
-                <h2>SYLVESTER CARDORELLE</h2>
-              </div>
-              <p>
-                Computer Scientist who loves making people smile.
-              </p>
-
+              <div id="typedtext">
           </div>
           <div class="col-md-4"></div>
         </div>
