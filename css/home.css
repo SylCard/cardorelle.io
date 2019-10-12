@@ -47,7 +47,6 @@ body{
     width: 40em;
     margin: 0 auto;
     border-right: 2px solid black ;
-    text-align: center;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
@@ -63,7 +62,7 @@ body{
   to{width: 40em;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
+  from{border-right-color: black ;}
   to{border-right-color: transparent;}
 }
 
