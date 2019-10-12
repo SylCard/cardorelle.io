@@ -43,6 +43,7 @@ body{
 
 
 .line-1{
+    margin-top: 50px,
     position: relative;
     width: 40em;
     margin: 0 auto;
