@@ -29,7 +29,7 @@ body{
       text-align: center;
 }
 #about h2{
-  font-size:  3em;
+  font-size: calc(1em + 1vw);
 	font-weight: 500;
 }
 #about p {
@@ -49,6 +49,7 @@ body{
 }
 
 .typewriter-text {
+
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 3px;
