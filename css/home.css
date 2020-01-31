@@ -39,10 +39,14 @@ body{
 }
 #about a {
 
-  color:white;
+  color:black;
 }
 
+.link{
+  color:black;
+  text-decoration: underline;
 
+}
 .typewriter {
      font-family: Courier, monospace;
 	display: inline-block;
