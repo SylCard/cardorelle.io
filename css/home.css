@@ -1,7 +1,6 @@
 body{
   background-color: #CAFFD4;
-  font-family: 'Gugi', cursive;
-  font-family: Courier, monospace;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 
@@ -25,22 +24,34 @@ body{
 }
 
 #about{
-      background-color: #CAFFD4;
-      text-align: center;
+  text-align: center;
 }
+
+#abouttwo{
+      margin-top: 30px;
+      text-align: left;
+      font-size:  calc(0.4em + 0.9vw);
+      font-weight: 1000;
+
+}
+
 #about h2{
   font-size: calc(1em + 1vw);
 	font-weight: 500;
 }
-#about p {
-  font-size:  1.3em;
-	font-weight: 400;
 
-}
+
+
 #about a {
 
   color:black;
 }
+#about a:hover {
+
+  color:blue;
+  text-decoration: none;
+}
+
 
 .link{
   color:black;
@@ -48,7 +59,7 @@ body{
 
 }
 .typewriter {
-     font-family: Courier, monospace;
+  font-family: 'Cormorant Garamond', serif;
 	display: inline-block;
 }
 
@@ -63,7 +74,7 @@ body{
     box-sizing: border-box;
 }
 
-@keyframes typing {
+/* @keyframes typing {
     from {
         width: 0%
     }
@@ -79,33 +90,24 @@ body{
     50% {
         border-color: orange;
     }
-}
+} */
 
-#profile {
-   width: 150px;
-   height: 150px;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   border-radius: 50%;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   border: 3px solid white;
+.profile {
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  float:right;
 
 }
 
-a{
-  color:white;
-
+.link {
+  text-align: center;
+  color:blue;
+  text-decoration: none;
 }
 
 
-a:visited{
-  text-decoration:none;
-  color:white;
-}
+.link a:hover {
 
-a:hover{
-  color:white;
   text-decoration: none;
 }
